@@ -5,10 +5,10 @@ from pathlib import Path
 
 # Settings
 image_shape = (600, 600) #(height, width) not (width, height)
-image_save_path = Path('./saved_spectrogram.png')
+image_save_path = Path('spectrogram/gamme_blacknwhite.png')
 
 # Load audio file as Audio object
-audio = Audio.from_file("okay-3.wav")
+audio = Audio.from_file("notesMusiques/gamme.wav")
 
 # Create Spectrogram object from Audio object
 spectrogram = Spectrogram.from_audio(audio)
