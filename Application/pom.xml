@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>HEALT_APP</groupId>
-  <artifactId>HEALT_APP</artifactId>
+  <groupId>HealthApp2</groupId>
+  <artifactId>HealthApp2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -14,7 +14,7 @@
       </resource>
     </resources>
     <plugins>
-    <plugin>
+      <plugin>
       <groupId>org.openjfx</groupId>
          <artifactId>javafx-maven-plugin</artifactId>
          <version>0.0.3</version>
@@ -33,8 +33,7 @@
     </plugins>
   </build>
   
-  
-<dependencies>
+  <dependencies>
   <!-- Tous les contrôles (Bouton, Zone de texte...) -->
         <dependency>
             <groupId>org.openjfx</groupId>

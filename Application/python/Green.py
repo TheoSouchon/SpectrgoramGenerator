@@ -12,6 +12,4 @@ Fs, aud = wavfile.read(sys.argv[1])
 first = aud[:int(Fs*125)] # trim the first 125 seconds
 
 powerSpectrum, frequenciesFound, time, imageAxis = plt.specgram(first, Fs=Fs) 
-ax = plt.gca()
-ax.set_ylim(0,2500)
 plt.show()
