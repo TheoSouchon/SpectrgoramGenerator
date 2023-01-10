@@ -1,8 +1,8 @@
 # README FOR SPECTROGRAM GENERATOR
 
-Théo Souchon
-Michelle Pepe
-Mohameden Mouhamedda
+Théo Souchon,
+Michelle Pepe,
+Mohameden Mouhamedda,
 
 
 ## In Application :
