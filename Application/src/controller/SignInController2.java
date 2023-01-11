@@ -18,7 +18,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
+import javafx.scene.control.PasswordField;
 public class SignInController2 implements Initializable {
 	// controller of SignIn.fxml page
 	// in the SignInController2.java file we have: btn_connect, btn_pass Buttons,
@@ -38,7 +38,7 @@ public class SignInController2 implements Initializable {
 	private Button btn_pass;
 
 	@FXML
-	private TextField password;
+	private PasswordField password;
 
 	@FXML
 	private TextField username;

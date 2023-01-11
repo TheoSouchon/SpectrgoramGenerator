@@ -13,7 +13,10 @@ The source code of the projet (what you should open in your IDE)
 	It is based on MVC format (application = Model, interfaces = View, controller = Controller) and images for some ressources
 	
 	NOTE : You need to have a data base working while starting the app (xampp or wampserver), the database template is in the file "admin.sql"
-
+	NOTE2 : The acounts you can used without creating an account are present in the "users" table of the file "admin.sql"
+	NOTE3 : The application can only convert .wav file
+	NOTE4 : You must have the python environment on your computer (example Windows os : Microsoft Store -> install python 3.10 then open the cmd console and type "pip install scipy"
+,"pip install matplotlib", "pip install numpy"
 ## In Documentation :
 
 	The report.

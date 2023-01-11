@@ -12,7 +12,7 @@ import javafx.stage.StageStyle;
 
 
 //The main class for a JavaFX application extends the javafx.application.Application class. 
-public class HelloWord extends Application{
+public class MainApp extends Application{
 
 	@Override
 	//The start() method is the main entry point for all JavaFX applications.

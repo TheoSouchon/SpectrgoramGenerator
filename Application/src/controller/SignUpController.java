@@ -28,7 +28,7 @@ public class SignUpController implements Initializable {
 	// VBox, password,email and username fields and two function.
 	java.sql.Connection cnx;
 
-	public PreparedStatement st;
+	public java.sql.PreparedStatement st;
 	public ResultSet result;
 
 	@FXML
@@ -60,7 +60,7 @@ public class SignUpController implements Initializable {
 			boolean val = false;
 			boolean nomeCheck = false;
 			boolean mailCheck = false;
-			st = (PreparedStatement) cnx.prepareStatement(sql);
+			st = cnx.prepareStatement(sql);
 			result = st.executeQuery();
 			if (nome.equals(""))
 				val = true;
@@ -79,7 +79,7 @@ public class SignUpController implements Initializable {
 				// information is saved into database
 				if (result.isLast() && !nomeCheck && !mailCheck && !val) {
 					try {
-						PreparedStatement ps = (PreparedStatement) cnx
+						java.sql.PreparedStatement ps = cnx
 								.prepareStatement("INSERT INTO admin(username, pass, email) VALUES (?,?,?)");
 
 						ps.setString(1, nome);
