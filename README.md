@@ -17,6 +17,7 @@ The source code of the projet (what you should open in your IDE)
 	NOTE3 : The application can only convert .wav file
 	NOTE4 : You must have the python environment on your computer (example Windows os : Microsoft Store -> install python 3.10 then open the cmd console and type "pip install scipy"
 ,"pip install matplotlib", "pip install numpy"
+
 ## In Documentation :
 
 	The report.
